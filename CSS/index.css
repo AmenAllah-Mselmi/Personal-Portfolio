@@ -1,0 +1,507 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+header{
+    height: 60px;
+    background-color:hsl(228,15%,15%);
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+.h1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1{
+    width: 40%;  
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-right: 150px;
+}
+.nav1 a,
+.h1 p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav1 a:hover{
+    
+    color: hsl(120,100%,50%);
+}
+.moz{
+    color: hsl(120,100%,50%); 
+}
+#x{
+    display: none;
+    cursor: pointer;
+}
+#gun{
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+#ham{
+    color: white;
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+section{
+    height:700px;
+    background-color:hsl(228,15%,15%); ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.s{
+    display: flex;
+    width:65%;
+    height: 65%;
+}
+.s1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.s2{
+    width: 50%;
+}
+.s2 img{
+    width: 100%;
+    height: 100%;
+}
+#btn1{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    background-color: hsl(120,100%,50%);
+    color: white;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    border: hsl(120,100%,50%) ;
+}
+.s h1{
+    font-size: 50px;
+}
+.s h2{
+    font-size: 40px;
+    display: inline;
+}
+.span2{
+    color: hsl(120,100%,50%); 
+}
+.fa-brands 
+{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.s p{
+    font-size: 20px;
+}
+main{
+    height:700px;
+    background-color:hsl(228,15%,20%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+#btn2{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    background-color: hsl(120,100%,50%);
+    color: white;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 30px;
+    border: hsl(120,100%,50%) ;
+}
+main .s .s1{
+    padding-left: 30px;
+    justify-content: center;
+}
+main .s .s1 p{
+    margin-top: 30px;
+}
+#span3{
+    font-size: 40px;
+}
+.titre3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    background-color:hsl(228,15%,20%); 
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titre3 p{
+    font-size: 20px;
+}
+.span4{
+    font-size: 40px;
+}
+article{
+    height:100vh;
+    background-color:hsl(228,15%,20%); 
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.ar1{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+}
+.ar{
+    width:60%;
+    height: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:30px 20px;
+}
+.card{
+    cursor: pointer;
+}
+.card img{
+width:300px;
+height: 200px;
+border-radius: 15px;
+cursor: pointer;
+}
+.contact{
+    height: 100vh;
+    max-width: 100vw;
+    background-color:hsl(228,15%,20%); 
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+#projects,
+#contact
+{
+    background-color:hsl(228,15%,20%); 
+    height: 80px;
+}
+#services{
+    background-color:hsl(228,15%,15%); 
+    height: 80px;
+}
+.c11{
+    display: flex;
+    justify-content: center;
+    height:450px;
+    }
+.c1{
+        display: flex;
+        width:40%;
+        height: 65%;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .input1{
+        width: 48.5%;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .input2{
+        width: 100%;
+        height: 330px;
+    }
+    input{
+        background-color:hsl(228,15%,15%); 
+        color: aliceblue;
+        border-radius: 5px;
+        border: none;
+    }
+    #btn3{
+        width: 100px;
+        height:40px;
+        border-radius: 5px;
+        background-color: hsl(120,100%,50%);
+        color: white;
+        cursor: pointer;
+        font-family: 'Dancing Script', cursive;
+        margin-top: 30px;
+        border: hsl(120,100%,50%) ;
+    }
+    .btn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    .services{
+        height: 100vh;
+        max-width: 100vw;
+        background-color:hsl(228,15%,15%); 
+        color: white;
+        font-family: 'Dancing Script', cursive;
+    }
+    .services .titre3{
+        background-color:hsl(228,15%,15%); 
+    }
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+    }
+    .container{
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .carte{
+        background-color:hsl(228,15%,20%); 
+        width: 380px;
+        height: 270px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: solid 3px hsl(228,15%,20%);
+    }
+    .container i{
+        color: hsl(120,100%,50%); 
+        font-size: 50px;
+    }
+    .c111{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+    .carte:hover{
+        border:hsl(120,100%,50%)  solid 3px;
+    }
+    #about{
+        position: relative;
+    }
+    #m{
+        position: sticky;
+        right: 10px;
+        bottom: 10px;
+        font-size: 30px;
+        color: hsl(120,100%,50%); 
+        border:hsl(120,100%,50%)  solid 3px;
+    }
+    .maison{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        cursor: pointer;
+    }
+    footer{
+        background-color:hsl(228,15%,15%); 
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+    }
+    footer i{
+    color: hsl(120,100%,50%); 
+    }
+    .span5{
+        font-size: 20px;
+    }
+@media screen and (max-width:1024px) {
+    .nav1{
+        margin-right: 20px;
+        justify-content: end;
+    }
+    /* #y{
+position: fixed;
+top: 0;
+z-index: 999999999999;
+height: 40px;
+    } */
+    #ham{
+        display: block;
+    }
+    #x{
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 20px;
+        color: white;
+    }
+    .nav1 a,
+    .nav1 #x{
+        display: none;
+    }
+    .nav1 a{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .h1{
+        margin-left: 20px;
+        justify-content:flex-start;
+    }
+    .moz{
+        display: none;
+    }
+    #gun{
+        display: block;
+        font-size: 20px;
+    }
+    section{
+        height: 530px;
+    }
+    .s{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .s1{
+        width: 100%;
+        align-items: center;
+        height: 48%;
+    }
+    .s2{
+        width:100%;
+        height: 48%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .s h1{
+        font-size: 30px;
+    }
+    .s h2{
+        font-size: 20px;
+    }
+    .span1{
+        color: hsl(120,100%,50%); 
+    }
+    .s p{
+        font-size: 13px;
+    }
+    .s2 img{
+        width: 80%;
+        height: 80%;
+    }
+    main .s{
+        flex-direction: column-reverse;
+    } 
+    main{
+        height: 500px;
+    }
+    #btn1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .ar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+        width: 80%;
+    }
+    .ar1{
+        width: 100vw;
+        height: 1600px;
+    }
+    article{
+        height: 1700px;
+    }
+    .titre3{
+        height: 150px;
+        align-items: flex-end;
+    }
+    .card img{
+        width:80vw;
+    }
+    p{
+        text-align: center;
+    }
+    .input1{
+        width: 100%;
+    }
+    .contact{
+        height: 700px;
+    }
+    .input2{
+        height: 200px;
+    }
+    .c1{
+        width: 80%;
+    }
+    .c11{
+        height: 350px;
+        width: 100vw;
+    }
+    .carte{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .services{
+        height: 1150px;
+    }
+    *{
+        max-width: 100vmin;
+    }
+    footer{
+        flex-direction: column;
+        height:250px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+    .span5{
+        font-size: 17px;
+    }
+    article{
+        max-width: 100vw;
+    }
+}
+.cache{
+    display: none;
+}
+.non_cache{
+    display: block;
+}
+.typed-cursor{
+    display: inline;
+}
+.active{
+    color: hsl(120,100%,50%); 
+}
+.desactive{
+    color: white;
+}
