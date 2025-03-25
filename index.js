@@ -12,7 +12,7 @@ a1.style.color= "hsl(120,100%,50%)";
 
 function downloadFile() {
     // Replace with your file URL
-    const fileUrl = 'https://drive.google.com/file/d/1-AZHLFoj-dr4mmRR4ZU-nxCyNz9HIAPx/view?usp=drive_link';
+    const fileUrl = 'https://drive.google.com/file/d/1vZCy6Fx15s8hPSn0Vx42pGEF0IF0PxUg/view?usp=sharing';
     // Replace with your desired filename
     const fileName = 'cv.pdf';
 
